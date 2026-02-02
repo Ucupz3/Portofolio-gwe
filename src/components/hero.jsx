@@ -4,7 +4,6 @@ const Hero = () => {
     const images = [
         "/images/poto4.png",
         "/images/poto5.png",
-    
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,7 +13,7 @@ const Hero = () => {
         setCurrentIndex((prevIndex) =>
             prevIndex === images.length - 1 ? 0 : prevIndex + 1
         );
-        }, 2000); // ganti setiap 2 detik
+        }, 2000);
 
         return () => clearInterval(interval);
     }, [images.length]);
@@ -24,14 +23,23 @@ const Hero = () => {
         id="hero"
         className="relative bg-blue-100 min-h-screen flex items-center overflow-hidden"
         >
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none">
+            <svg className="w-full h-full" width="100%" height="100%">
+            <defs>
+                <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="1" className="text-sapphire" fill="currentColor" />
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#dots)" />
+            </svg>
+        </div>
+
         <div className="container mx-auto px-6 md:px-12 relative z-10">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+            <div className="flex flex-col-reverse mt-32 md:mt-0 mb-20 md:mb-0 md:flex-row items-center justify-between gap-12">
+            
             {/* Bagian Kiri: Teks */}
             <div className="md:w-1/2 text-center md:text-left space-y-6">
-                <span className="inline-block py-1 px-3 rounded-full bg-powder text-sapphire text-sm font-semibold mb-2">
-                👋 Selamat Datang di Portfolio Saya
-                </span>
-
                 <h1 className="text-5xl md:text-7xl font-extrabold text-sapphire leading-tight">
                 Hai, Saya <br />
                 <span className="text-navy">Yusuf Ricky</span>
@@ -46,7 +54,7 @@ const Hero = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
                 <a
                     href="#projects"
-                    className="bg-sapphire hover:bg-navy text-ice font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1"
+                    className="bg-sapphire hover:bg-navy text-blue-100 border border-sapphire font-bold py-3 px-8 rounded-full shadow-sm transition duration-300 hover:border-navy"
                 >
                     Lihat Karya Saya
                 </a>
@@ -59,8 +67,8 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Bagian Kanan: Foto/Avatar dengan slideshow */}
-            <div className="md:w-1/2 flex justify-center relative">
+            {/* Bagian Kanan: Foto/Avatar */}
+            <div className="md:w-1/2 flex justify-center relative mb-8 md:mb-0">
                 <div className="absolute inset-0 bg-sapphire rounded-full blur-2xl transform scale-90"></div>
                 <img
                 src={images[currentIndex]}

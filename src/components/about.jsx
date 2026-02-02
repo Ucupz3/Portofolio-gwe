@@ -1,25 +1,55 @@
 import React from "react";
+import { FaUser } from "react-icons/fa";
 
 const About = () => {
     const skills = [
         "JavaScript (ES6+)",
         "React.js",
-        "Tailwind CSS",
+        "PHP",
         "Node.js",
         "Firebase",
-        "PHP Native",
+        "MySQL",
+        "Tailwind CSS",
         "UI/UX Design",
     ];
 
     return (
         <section
         id="about"
-        className="py-20 bg-sapphire text-blue-100 relative overflow-hidden"
+        className="py-20 bg-sapphire min-h-screen text-blue-100 relative overflow-hidden"
         >
-        <div className="container mx-auto px-6 md:px-12">
-            
+        {/* Background Pattern: diagonal lines */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none">
+            <svg className="w-full h-full" width="100%" height="100%">
+            <defs>
+                <pattern
+                id="diagonal"
+                width="40"
+                height="40"
+                patternUnits="userSpaceOnUse"
+                patternTransform="rotate(45)"
+                >
+                <line
+                    x1="0"
+                    y="0"
+                    x2="0"
+                    y2="40"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="text-powder"
+                />
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#diagonal)" />
+            </svg>
+        </div>
+
+        <div className="container mx-auto px-6 md:px-12 relative z-10">
             {/* Header */}
             <div className="text-center mb-16">
+            <div className="inline-block p-4 bg-ice rounded-full shadow-md mb-10">
+                <FaUser className="text-4xl text-navy" />
+            </div>
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
                 Tentang <span className="text-powder">Saya</span>
             </h2>
@@ -28,11 +58,9 @@ const About = () => {
 
             {/* Grid: Gambar + Konten */}
             <div className="grid md:grid-cols-2 gap-16 items-start">
-            
             {/* Kolom Gambar */}
             <div className="relative group flex justify-center">
                 <div className="absolute top-6 left-6 w-full h-full border-2 border-powder rounded-2xl transform translate-x-2 translate-y-2 transition-transform group-hover:translate-x-4 group-hover:translate-y-4"></div>
-                
                 <img
                 src="/images/poto3.png"
                 alt="Foto Profil"
@@ -45,13 +73,11 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-white">
                 Front-end Developer & UI/UX Enthusiast
                 </h3>
-                
                 <p className="text-blue-100/90 leading-relaxed text-lg">
                 Halo! Saya menggabungkan logika pemrograman dengan estetika desain.
                 Fokus saya adalah menciptakan antarmuka web yang tidak hanya berfungsi dengan baik,
                 tetapi juga <span className="text-powder font-semibold">intuitif dan menyenangkan</span> bagi pengguna.
                 </p>
-
                 <p className="text-blue-100/90 leading-relaxed">
                 Selain koding, saya mendalami <strong>Human-Centered Design</strong> melalui sertifikasi
                 Google UX Design dan Microsoft UX Design. Saya percaya bahwa kode yang baik harus didukung oleh empati terhadap pengguna.
@@ -74,7 +100,6 @@ const About = () => {
                 </div>
                 </div>
             </div>
-
             </div>
         </div>
         </section>
