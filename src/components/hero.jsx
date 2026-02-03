@@ -60,7 +60,7 @@ const Hero = () => {
                 </a>
                 <a
                     href="#contact"
-                    className="bg-powder hover:bg-ice text-navy border border-sapphire font-bold py-3 px-8 rounded-full shadow-sm transition duration-300 hover:border-navy"
+                    className="bg-blue-100 hover:bg-ice text-navy border border-sapphire font-bold py-3 px-8 rounded-full shadow-sm transition duration-300 hover:border-navy"
                 >
                     Hubungi Saya
                 </a>

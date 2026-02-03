@@ -60,11 +60,23 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-16 items-start">
             {/* Kolom Gambar */}
             <div className="relative group flex justify-center">
-                <div className="absolute top-6 left-6 w-full h-full border-2 border-powder rounded-2xl transform translate-x-2 translate-y-2 transition-transform group-hover:translate-x-4 group-hover:translate-y-4"></div>
+                <div className="absolute border-2 border-powder rounded-2xl transform translate-x-2 translate-y-2 transition-transform
+                2xl:top-[-52px] xl:top-[-48px] lg:top-[-42px] md:top-[-36px] sm:top-[-40px] top-[-10px]
+                2xl:left-[10px] xl:left-[-18px] lg:left-[-25px] md:left-[-44px] sm:left-[20px] left-[-10px]
+                2xl:w-[520px] xl:w-[480px] lg:w-[380px] md:w-[320px] sm:w-[450px] w-full
+                h-full
+                2xl:group-hover:translate-x-[130px] 2xl:group-hover:translate-y-[110px] 
+                xl:group-hover:translate-x-[110px] xl:group-hover:translate-y-[100px] 
+                lg:group-hover:translate-x-[96px] lg:group-hover:translate-y-[84px]
+                md:group-hover:translate-x-[90px] md:group-hover:translate-y-[70px]
+                sm:group-hover:translate-x-[110px] sm:group-hover:translate-y-[86px]
+                ">
+                </div>
                 <img
                 src="/images/poto3.png"
                 alt="Foto Profil"
-                className="relative w-full max-w-sm rounded-2xl shadow-2xl object-cover z-10 filter grayscale group-hover:grayscale-0 transition duration-500"
+                className="relative 2xl:w-[520px] xl:w-[480px] lg:w-[380px] md:w-[320px] sm:w-[460px] w-[400px]
+                rounded-2xl shadow-2xl object-cover z-10 filter grayscale group-hover:grayscale-0 transition duration-500"
                 />
             </div>
 

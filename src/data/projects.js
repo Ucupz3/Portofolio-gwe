@@ -16,6 +16,22 @@ export const projectsData = [
     link: "https://github.com/..."
   },
   {
+    id: "W3",
+    type: "W", // Web
+    title: "RinafaGo",
+    description: "RinafaGo adalah aplikasi e-commerce berbasis web yang memudahkan pengguna mencari, memilih, dan membeli produk melalui tampilan modern dan responsif.",
+    imageUrl: "/images/web3.svg",
+    link: "https://github.com/..."
+  },
+  {
+    id: "W4",
+    type: "W",
+    title: "Sugeng Rawuh Semarang",
+    description: "Sugeng Rawuh Semarang adalah platform berbasis web yang menyajikan informasi pariwisata dan budaya Kota Semarang secara interaktif dan mudah diakses.",
+    imageUrl: "/images/web2.png",
+    link: "https://github.com/..."
+  },
+  {
     id: "D1",
     type: "D", // Desain
     title: "Dapur Makmel",
