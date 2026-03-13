@@ -51,7 +51,7 @@ const About = () => {
                 <FaUser className="text-4xl text-navy" />
             </div>
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-                Tentang <span className="text-powder">Saya</span>
+                About <span className="text-powder">Me</span>
             </h2>
             <div className="w-24 h-1 bg-powder mx-auto rounded-full"></div>
             </div>
