@@ -102,12 +102,12 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-navy mb-2">Nama Lengkap</label>
-                  <input type="text" name="name" placeholder="John Doe" required
+                  <input type="text" name="name" placeholder="Carl Joseph" required
                     className="w-full bg-blue-50 border border-sapphire/30 rounded-lg px-4 py-3 text-navy" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-navy mb-2">Email</label>
-                  <input type="email" name="email" placeholder="john@example.com" required
+                  <input type="email" name="email" placeholder="Joseph@example.com" required
                     className="w-full bg-blue-50 border border-sapphire/30 rounded-lg px-4 py-3 text-navy" />
                 </div>
                 <div>
