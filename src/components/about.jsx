@@ -86,19 +86,18 @@ const About = () => {
                 Front-end Developer & UI/UX Enthusiast
                 </h3>
                 <p className="text-blue-100/90 leading-relaxed text-lg">
-                Halo! Saya menggabungkan logika pemrograman dengan estetika desain.
-                Fokus saya adalah menciptakan antarmuka web yang tidak hanya berfungsi dengan baik,
-                tetapi juga <span className="text-powder font-semibold">intuitif dan menyenangkan</span> bagi pengguna.
+                Hello! I combine programming logic with design aesthetics. My focus is on creating web interfaces that not only function well but are also 
+                <span className="text-powder font-semibold">intuitive and enjoyable</span> for users.
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
-                Selain koding, saya mendalami <strong>Human-Centered Design</strong> melalui sertifikasi
-                Google UX Design dan Microsoft UX Design. Saya percaya bahwa kode yang baik harus didukung oleh empati terhadap pengguna.
+                Besides coding, I immerse myself in <strong>Human-Centered Design</strong> through certifications
+                Google UX Design and Microsoft UX Design. I believe that good code must be supported by empathy towards users.
                 </p>
 
                 {/* Skill */}
                 <div className="pt-4">
                 <h4 className="text-powder font-bold mb-4 uppercase tracking-wide text-sm">
-                    Teknologi & Tools
+                    Technologies & Tools
                 </h4>
                 <div className="flex flex-wrap gap-3">
                     {skills.map((skill, index) => (
