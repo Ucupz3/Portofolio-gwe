@@ -27,11 +27,11 @@ const Projects = () => {
                 <FaLaptopCode className="text-4xl text-blue-100" />
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-sapphire mb-4">
-                Proyek Saya
+                My Projects
             </h2>
             <div className="w-24 h-1.5 bg-navy mx-auto rounded-full mb-4"></div>
             <p className="text-navy/80 max-w-2xl mx-auto text-lg">
-                Kumpulan hasil karya yang memadukan logika kode dan estetika desain.
+                A collection of my work that combines coding logic with design aesthetics.
             </p>
             </div>
 
@@ -57,7 +57,7 @@ const Projects = () => {
                 href=""
                 className="inline-flex items-center gap-2 text-sapphire font-bold hover:text-navy transition-colors text-lg"
             >
-                Lihat repositori lainnya <FaArrowRight />
+                View Other Repositories <FaArrowRight />
             </a>
             </div>
         </div>
