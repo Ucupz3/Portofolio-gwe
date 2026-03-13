@@ -59,11 +59,11 @@ const Certificate = () => {
                 <FaAward className="text-4xl text-sapphire" />
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold text-blue-100 mb-4">
-                Lisensi & <span className="text-powder">Sertifikasi</span>
+                Licenses & <span className="text-powder">Certifications</span>
             </h2>
             <div className="w-24 h-1.5 bg-powder mx-auto rounded-full mb-4"></div>
             <p className="text-blue-100/80 max-w-xl mx-auto text-lg">
-                Validasi kompetensi profesional saya melalui berbagai pelatihan berstandar industri.
+                Validation of my professional competencies through various industry-standard trainings.
             </p>
             </div>
 
@@ -88,7 +88,7 @@ const Certificate = () => {
                     className="absolute inset-0 bg-sapphire/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-sm"
                     >
                     <span className="text-white bg-white/20 border border-white px-4 py-2 rounded-full flex items-center gap-2 font-medium text-sm">
-                        <FaEye /> Lihat Detail
+                        <FaEye /> View Details
                     </span>
                     </a>
                 </div>
@@ -110,7 +110,7 @@ const Certificate = () => {
                     rel="noopener noreferrer"
                     className="mt-auto text-sm font-semibold text-sapphire flex items-center gap-2 hover:underline decoration-powder decoration-2 underline-offset-4"
                     >
-                    Tampilkan Kredensial <FaExternalLinkAlt size={12} />
+                    Display Credentials <FaExternalLinkAlt size={12} />
                     </a>
                 </div>
                 </div>
