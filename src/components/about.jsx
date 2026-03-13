@@ -91,7 +91,7 @@ const About = () => {
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
                 Besides coding, I immerse myself in <strong>Human-Centered Design</strong> through certifications
-                Google UX Design and Microsoft UX Design. I believe that good code must be supported by empathy towards users.
+                Google UX Design and Microsoft UX Design. I believe that good code should be supported by empathy for users.
                 </p>
 
                 {/* Skill */}
