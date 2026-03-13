@@ -48,11 +48,11 @@ const Contact = () => {
           {/* BAGIAN KIRI */}
           <div className="lg:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Ayo Buat Sesuatu <br />
-              <span className="text-sapphire">Yang Hebat Bersama.</span>
+              Let's Build Something <br />
+              <span className="text-sapphire">Great Together.</span>
             </h2>
             <p className="text-navy/80 text-lg mb-10 leading-relaxed">
-              Saya selalu terbuka untuk mendiskusikan proyek pengembangan web, desain produk, atau sekadar kemitraan. Jangan ragu untuk menyapa!
+              I'm always open to discussing web development projects, product design, or potential collaborations. Don't hesitate to reach out!
             </p>
 
             <div className="space-y-6">
@@ -62,7 +62,7 @@ const Contact = () => {
                   <FaEnvelope size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">Email Saya</h4>
+                  <h4 className="font-semibold text-lg">My Email</h4>
                   <a href="mailto:yusufrickyhartono09@gmail.com" className="text-navy hover:text-sapphire transition-colors">
                     yusufrickyhartonoZ3@gmail.com
                   </a>
@@ -75,9 +75,9 @@ const Contact = () => {
                   <FaMapMarkerAlt size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">Lokasi</h4>
+                  <h4 className="font-semibold text-lg">Location</h4>
                   <p className="text-navy">
-                    <a href="https://maps.app.goo.gl/Krfd9Eoc3GMbKjTU8">Kota Semarang, Indonesia</a> (Remote Available)
+                    <a href="https://maps.app.goo.gl/Krfd9Eoc3GMbKjTU8">Semarang, Indonesia</a> (Remote Available)
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
 
             {/* Sosmed */}
             <div className="mt-12">
-              <p className="text-sm text-navy font-semibold uppercase tracking-wider mb-4">Ikuti Saya</p>
+              <p className="text-sm text-navy font-semibold uppercase tracking-wider mb-4">Follow Me</p>
               <div className="flex gap-4">
                 <SocialLink href="https://www.linkedin.com/in/yusufrickyh13" icon={<FaLinkedin />} />
                 <SocialLink href="https://github.com/Ucupz3" icon={<FaGithub />} />
@@ -97,11 +97,11 @@ const Contact = () => {
           {/* BAGIAN KANAN: Form */}
           <div className="lg:w-1/2">
             <div className="bg-white/70 backdrop-blur-lg border border-sapphire/20 rounded-3xl p-8 md:p-10 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-6 text-sapphire">Kirim Pesan</h3>
+              <h3 className="text-2xl font-bold mb-6 text-sapphire">Send Message</h3>
               
               <form ref={form} onSubmit={sendEmail} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-navy mb-2">Nama Lengkap</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-navy mb-2">Username</label>
                   <input type="text" name="name" placeholder="Carl Joseph" required
                     className="w-full bg-blue-50 border border-sapphire/30 rounded-lg px-4 py-3 text-navy" />
                 </div>
@@ -111,13 +111,13 @@ const Contact = () => {
                     className="w-full bg-blue-50 border border-sapphire/30 rounded-lg px-4 py-3 text-navy" />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-navy mb-2">Pesan</label>
-                  <textarea name="message" rows="4" placeholder="Ceritakan tentang proyek Anda..." required
+                  <label htmlFor="message" className="block text-sm font-medium text-navy mb-2">Message</label>
+                  <textarea name="message" rows="4" placeholder="Tell me about your project..." required
                     className="w-full bg-blue-50 border border-sapphire/30 rounded-lg px-4 py-3 text-navy resize-none" />
                 </div>
                 <button type="submit"
                   className="w-full bg-sapphire hover:bg-navy text-white font-bold py-3 px-6 rounded-lg flex justify-center items-center gap-2 shadow-lg">
-                  Kirim Sekarang <FaPaperPlane size={14} />
+                  Send Message <FaPaperPlane size={14} />
                 </button>
               </form>
             </div>
