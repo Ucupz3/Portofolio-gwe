@@ -6,32 +6,32 @@ const Certificate = () => {
         {
         id: 1,
         title: "Meta React",
-        issuer: "Coursera",
-        description: "Sertifikasi profesional Human-Centered Design dan prototyping.",
+        issuer: "Meta",
+        description: "Certification from Meta focused on building modern web applications using React, reusable components, and responsive UI.",
         image: "/images/sertif4.jpeg",
         link: "https://www.coursera.org/account/accomplishments/specialization/0AMXNGOU7N0T"
         },
         {
         id: 2,
         title: "Full-Stack Web Development: PHP, HTML, CSS & JavaScript",
-        issuer: "Microsoft",
-        description: "Fundamental desain antarmuka modern dan aksesibilitas.",
+        issuer: "Board Infinity",
+        description: "Full Stack Web Development certification focusing on PHP, database integration, and building dynamic web applications.",
         image: "/images/sertif1.jpeg",
         link: "https://www.coursera.org/account/accomplishments/specialization/DUNBXZONOR53"
         },
         {
         id: 3,
         title: "Google UX Design",
-        issuer: "Dicoding Indonesia",
-        description: "Membangun aplikasi web kompleks dengan React & Redux.",
+        issuer: "Google",
+        description: "Completed the Google UX Design Professional Certificate covering user research, wireframing, prototyping, and usability testing.",
         image: "/images/sertif3.jpeg",
         link: "https://www.coursera.org/account/accomplishments/professional-cert/TV3H84TCW49F"
         },
         {
         id: 4,
         title: "Microsoft UX Design",
-        issuer: "Dicoding Indonesia",
-        description: "Implementasi Tailwind CSS dan React Hooks lanjutan.",
+        issuer: "Microsoft",
+        description: "Professional certification from Microsoft focusing on modern digital skills, problem solving, and technology fundamentals.",
         image: "/images/sertif2.jpeg",
         link: "https://www.coursera.org/account/accomplishments/professional-cert/TV3H84TCW49F"
         },
