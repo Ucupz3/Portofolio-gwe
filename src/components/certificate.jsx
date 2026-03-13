@@ -95,7 +95,7 @@ const Certificate = () => {
 
                 {/* Content */}
                 <div className="p-5 flex flex-col flex-grow">
-                    <div className="text-xs font-bold text-powder bg-sapphire/5 px-2 py-1 rounded w-fit mb-3">
+                    <div className="text-xs font-bold text-sapphire bg-sapphire/5 px-2 py-1 rounded w-fit mb-3">
                     {cert.issuer}
                     </div>
                     <h3 className="text-lg font-bold text-navy mb-2 leading-tight group-hover:text-sapphire transition-colors">
