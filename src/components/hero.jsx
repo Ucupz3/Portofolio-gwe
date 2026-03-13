@@ -41,13 +41,12 @@ const Hero = () => {
             {/* Bagian Kiri: Teks */}
             <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-5xl md:text-7xl font-extrabold text-sapphire leading-tight">
-                Hai, Saya <br />
+                Hi, I'm <br />
                 <span className="text-navy">Yusuf Ricky</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-navy max-w-lg mx-auto md:mx-0 leading-relaxed">
-                Seorang <strong>Front-end Developer</strong> yang mengubah kode
-                menjadi pengalaman visual yang interaktif, responsif, dan estetik.
+                A <strong>Front-end Developer</strong> who turns code into interactive, responsive, and aesthetic visual experiences.
                 </p>
 
                 {/* CTA Buttons */}
@@ -56,13 +55,13 @@ const Hero = () => {
                     href="#projects"
                     className="bg-sapphire hover:bg-navy text-blue-100 border border-sapphire font-bold py-3 px-8 rounded-full shadow-sm transition duration-300 hover:border-navy"
                 >
-                    Lihat Karya Saya
+                    View My Work
                 </a>
                 <a
                     href="#contact"
                     className="bg-blue-100 hover:bg-ice text-navy border border-sapphire font-bold py-3 px-8 rounded-full shadow-sm transition duration-300 hover:border-navy"
                 >
-                    Hubungi Saya
+                    Contact Me
                 </a>
                 </div>
             </div>
