@@ -87,7 +87,7 @@ const About = () => {
                 </h3>
                 <p className="text-blue-100/90 leading-relaxed text-lg">
                 Hello! I combine programming logic with design aesthetics. My focus is on creating web interfaces that not only function well but are also  
-                <span className="text-powder font-semibold">intuitive and enjoyable</span> for users.
+                <span className="text-powder font-semibold"> intuitive and enjoyable</span> for users.
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
                 Besides coding, I immerse myself in <strong>Human-Centered Design</strong> through certifications
