@@ -46,7 +46,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-navy max-w-lg mx-auto md:mx-0 leading-relaxed">
-                A <strong>Front-end Developer</strong> who turns code into interactive, responsive, and aesthetic visual experiences.
+                A <strong>Computer Engineering Technology Student</strong> passionate about Full-Stack Development, Artificial Intelligence, IoT, and Robotics—building technology that solves real-world problems.
                 </p>
 
                 {/* CTA Buttons */}
