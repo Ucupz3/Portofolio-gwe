@@ -92,11 +92,12 @@ const About = () => {
                 </h3>
                 <p className="text-blue-100/90 leading-relaxed text-lg">
                 Hello! I'm a Computer Engineering Technology student at Politeknik Negeri Semarang (POLINES)
-                <span className="text-powder font-semibold"> with a strong passion for building impactful technology.</span> I enjoy developing full-stack web applications, exploring artificial intelligence, and creating IoT and robotics projects that solve real-world problems.
+                <span className="text-powder font-semibold"> with a strong passion for building impactful technology.</span>
+                I enjoy developing full-stack web applications, exploring artificial intelligence, and creating IoT and robotics projects that solve real-world problems.
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
-                Besides coding, I immerse myself in <strong>Human-Centered Design</strong> through certifications
-                Google UX Design and Microsoft UX Design. I believe that good code should be supported by empathy for users.
+                I believe that great technology is not only powerful but also user-centered. <strong>That's why I combine software engineering, UI/UX principles</strong> 
+                to create solutions that are functional, intuitive, and meaningful.
                 </p>
 
                 {/* Skill */}

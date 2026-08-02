@@ -4,14 +4,12 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 const PopUp = ({ type, message, onClose }) => {
   const [show, setShow] = useState(false);
 
-  // FIX: Gunakan setTimeout agar tidak dianggap "Synchronous Update" oleh ESLint
-  // Ini juga memastikan browser sempat me-render state awal (hidden) sebelum animasi mulai
   useEffect(() => {
     const timer = setTimeout(() => {
       setShow(true);
-    }, 10); // Jeda 10ms cukup untuk memicu transisi CSS
+    }, 10);
 
-    return () => clearTimeout(timer); // Membersihkan timer jika komponen di-unmount cepat
+    return () => clearTimeout(timer);
   }, []);
 
   const isSuccess = type === "success";
@@ -25,7 +23,6 @@ const PopUp = ({ type, message, onClose }) => {
 
   const handleClose = () => {
     setShow(false);
-    // Beri jeda 300ms (sesuai duration-300 di CSS) agar animasi keluar selesai dulu
     setTimeout(onClose, 300); 
   };
 

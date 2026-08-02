@@ -13,10 +13,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_2a6w0wl",     // Service ID
-      "template_86w356n",    // Template ID
+      "service_2a6w0wl",   
+      "template_86w356n",   
       form.current,
-      "OWVAeV0RDgCNmXuos"    // Public Key
+      "OWVAeV0RDgCNmXuos"    
     ).then(
       () => {
         setPopup({ type: "success", message: "Pesan berhasil dikirim!" });
@@ -52,7 +52,8 @@ const Contact = () => {
               <span className="text-sapphire">Great Together.</span>
             </h2>
             <p className="text-navy/80 text-lg mb-10 leading-relaxed">
-              I'm always open to discussing web development projects, product design, or potential collaborations. Don't hesitate to reach out!
+              I'm always excited to discuss software development, artificial intelligence, IoT, robotics, and innovative technology projects. 
+              Whether it's building modern web applications, intelligent systems, or collaborating on impactful ideas, I'd love to connect.
             </p>
 
             <div className="space-y-6">
