@@ -4,12 +4,17 @@ import { FaUser } from "react-icons/fa";
 const About = () => {
     const skills = [
         "JavaScript (ES6+)",
-        "React.js",
+        "Kotlin",
+        "Python",
         "PHP",
+        "React.js",
+        "Tailwind CSS",
+        "Git & GitHub",
         "Node.js",
         "Firebase",
         "MySQL",
-        "Tailwind CSS",
+        "REST API",
+        "Embedded Systems & IoT",
         "UI/UX Design",
     ];
 
@@ -83,11 +88,11 @@ const About = () => {
             {/* Kolom Konten */}
             <div className="space-y-6 md:pl-6">
                 <h3 className="text-2xl font-semibold text-white">
-                Front-end Developer & UI/UX Enthusiast
+                Computer Engineering Technology Student | Full-Stack Developer | AI & IoT Enthusiast
                 </h3>
                 <p className="text-blue-100/90 leading-relaxed text-lg">
-                Hello! I combine programming logic with design aesthetics. My focus is on creating web interfaces that not only function well but are also  
-                <span className="text-powder font-semibold"> intuitive and enjoyable</span> for users.
+                Hello! I'm a Computer Engineering Technology student at Politeknik Negeri Semarang (POLINES)
+                <span className="text-powder font-semibold"> with a strong passion for building impactful technology.</span> I enjoy developing full-stack web applications, exploring artificial intelligence, and creating IoT and robotics projects that solve real-world problems.
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
                 Besides coding, I immerse myself in <strong>Human-Centered Design</strong> through certifications
