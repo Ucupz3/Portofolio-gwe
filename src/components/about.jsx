@@ -96,8 +96,8 @@ const About = () => {
                 I enjoy developing full-stack web applications, exploring artificial intelligence, and creating IoT and robotics projects that solve real-world problems.
                 </p>
                 <p className="text-blue-100/90 leading-relaxed">
-                I believe that great technology is not only powerful but also user-centered. <strong>That's why I combine software engineering, UI/UX principles</strong> 
-                to create solutions that are functional, intuitive, and meaningful.
+                I believe technology should be both functional and enjoyable to use. <strong>By combining software engineering with UI/UX principles,</strong> 
+                I aim to create applications that are efficient, intuitive, and provide meaningful experiences for users.
                 </p>
 
                 {/* Skill */}
