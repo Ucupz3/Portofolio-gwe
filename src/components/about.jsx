@@ -78,7 +78,7 @@ const About = () => {
                 ">
                 </div>
                 <img
-                src="/images/poto3.png"
+                src="/images/about/poto6.png"
                 alt="Foto Profil"
                 className="relative 2xl:w-[520px] xl:w-[480px] lg:w-[380px] md:w-[320px] sm:w-[460px] w-[400px]
                 rounded-2xl shadow-2xl object-cover z-10 filter grayscale group-hover:grayscale-0 transition duration-500"

@@ -8,7 +8,7 @@ const Certificate = () => {
         title: "Meta React",
         issuer: "Meta",
         description: "Certification from Meta focused on building modern web applications using React, reusable components, and responsive UI.",
-        image: "/images/sertif4.jpeg",
+        image: "/images/sertifikat/sertif4.jpeg",
         link: "https://www.coursera.org/account/accomplishments/specialization/0AMXNGOU7N0T"
         },
         {
@@ -16,7 +16,7 @@ const Certificate = () => {
         title: "Full-Stack Web Development: PHP, HTML, CSS & JavaScript",
         issuer: "Board Infinity",
         description: "Full Stack Web Development certification focusing on PHP, database integration, and building dynamic web applications.",
-        image: "/images/sertif1.jpeg",
+        image: "/images/sertifikat/sertif1.jpeg",
         link: "https://www.coursera.org/account/accomplishments/specialization/DUNBXZONOR53"
         },
         {
@@ -24,7 +24,7 @@ const Certificate = () => {
         title: "Google UX Design",
         issuer: "Google",
         description: "Completed the Google UX Design Professional Certificate covering user research, wireframing, prototyping, and usability testing.",
-        image: "/images/sertif3.jpeg",
+        image: "/images/sertifikat/sertif3.jpeg",
         link: "https://www.coursera.org/account/accomplishments/professional-cert/TV3H84TCW49F"
         },
         {
@@ -32,7 +32,7 @@ const Certificate = () => {
         title: "Microsoft UX Design",
         issuer: "Microsoft",
         description: "Professional certification from Microsoft focusing on modern digital skills, problem solving, and technology fundamentals.",
-        image: "/images/sertif2.jpeg",
+        image: "/images/sertifikat/sertif2.jpeg",
         link: "https://www.coursera.org/account/accomplishments/professional-cert/TV3H84TCW49F"
         },
     ];

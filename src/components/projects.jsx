@@ -5,6 +5,8 @@ import { FaArrowRight, FaLaptopCode } from "react-icons/fa";
 const Projects = () => {
     const webProjects = projectsData.filter((p) => p.type === "W");
     const designProjects = projectsData.filter((p) => p.type === "D");
+    const mobileProjects = projectsData.filter((p) => p.type === "M");
+    const ioTProjects = projectsData.filter((p) => p.type === "I");
 
     return (
         <section id="projects" className="py-24 bg-blue-100 text-navy relative overflow-hidden">
@@ -36,15 +38,31 @@ const Projects = () => {
             </div>
 
             {/* Web Projects */}
-            <h3 className="text-2xl font-bold text-sapphire mb-8">🌐 Web Projects</h3>
+            <h3 className="text-2xl font-bold text-sapphire mb-8">🌐 Web Development</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-16">
             {webProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
             ))}
             </div>
 
+            {/* Mobile Projects */}
+            <h3 className="text-2xl font-bold text-sapphire mb-8">📱 Mobile Apps</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-16">
+            {mobileProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+            ))}
+            </div>
+
+            {/* IoT & Embedded Systems */}
+            <h3 className="text-2xl font-bold text-sapphire mb-8">⚡ IoT & Embedded Systems</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-16">
+            {ioTProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+            ))}
+            </div>
+
             {/* Design Projects */}
-            <h3 className="text-2xl font-bold text-sapphire mb-8">🎨 Design Projects</h3>
+            <h3 className="text-2xl font-bold text-sapphire mb-8">🎨 UI / UX Design</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-16">
             {designProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
@@ -70,9 +88,20 @@ const Projects = () => {
     <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
         <div className="relative overflow-hidden h-60">
         <div className="absolute inset-0 bg-sapphire/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex items-center justify-center">
+        {project.available ? (
+            <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-sapphire py-2 px-4 rounded-full font-bold shadow-lg transform scale-0 group-hover:scale-100 transition-transform duration-300"
+            >
+            View Project
+            </a>
+        ) : (
             <span className="bg-white text-sapphire py-2 px-4 rounded-full font-bold shadow-lg transform scale-0 group-hover:scale-100 transition-transform duration-300">
             Coming Soon
             </span>
+        )}
         </div>
         <img
             src={project.imageUrl}
@@ -91,9 +120,20 @@ const Projects = () => {
             {project.description}
         </p>
         <div className="mt-auto pt-6 border-t border-blue-100">
+            {project.available ? (
+            <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-sapphire text-white py-3 px-6 rounded-lg font-semibold w-full justify-center hover:bg-navy transition"
+            >
+                View Project
+            </a>
+            ) : (
             <div className="inline-flex items-center gap-2 text-gray-400 bg-gray-100 py-3 px-6 rounded-lg font-semibold w-full justify-center cursor-not-allowed">
-            Coming Soon
+                Coming Soon
             </div>
+            )}
         </div>
         </div>
     </div>

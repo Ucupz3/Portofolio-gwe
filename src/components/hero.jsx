@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 const Hero = () => {
     const images = [
-        "/images/poto4.png",
-        "/images/poto5.png",
+        "/images/about/poto4.png",
+        "/images/about/poto5.png",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
